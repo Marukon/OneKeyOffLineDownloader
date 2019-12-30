@@ -31,7 +31,7 @@ rm -rf OneKeyOffLineDownloader go go1.13.5.linux-amd64.tar.gz download /usr/loca
 ```
 ## 使用
 - 访问ip:8081即可。如需不加端口直接访问请修改源码的端口为80后编译一次，或者用Nginx或者宝塔面板图形化界面设置反代。
-![反代](img/2.png)
+- ![反代](img/2.png)
 ## 路径相关
 - GO安装路径：/usr/local/go
 - 下载器安装路径：/root/go
