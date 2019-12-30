@@ -27,6 +27,7 @@ echo
 echo "Press any key to start...or Press Ctrl+C to cancel"
 char=`get_char`
 cd /root
+kill -9 $(ps -ef | grep onekeyod | grep -v grep | awk '{print $2}')
 rm -rf OneKeyOffLineDownloader go go1.13.5.linux-amd64.tar.gz download /usr/local/go
 echo "Done!"
 exit 0
