@@ -6,11 +6,11 @@
 - 需要提前安装Wget和Git。
 ## 直接运行
 - wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/runonekeyod.sh && chmod +x runonekeyod.sh && bash runonekeyod.sh
-### 卸载运行版
+### 移除运行版
 - wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/removeonekeyod.sh && chmod +x removeonekeyod.sh && bash removeonekeyod.sh
 ## 安装
 - wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/install.sh && chmod +x install.sh && bash install.sh
-## 卸载安装版
+### 卸载安装版
 - wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/uninstall.sh && chmod +x uninstall.sh && bash uninstall.sh
 ## 使用
 访问ip:8081即可。如需直接访问请修改源码的端口为80后编译一次，或者用Nginx进行反代。
