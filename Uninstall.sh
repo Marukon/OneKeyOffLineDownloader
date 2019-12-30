@@ -1,11 +1,11 @@
 #!/bin/bash
-#=================================================
+#===============================================================
 #	System Required: CentOS/Debian/Ubuntu
 #	Description: OneKeyOffLineDownloader-Uninstall
 #	Version: 1.0
 #	Author: Mr.Au
 #	Github: https://github.com/MRAUStuty/OneKeyOffLineDownloader
-#=================================================
+#===============================================================
 
 get_char() {
     SAVEDSTTY=`stty -g`
