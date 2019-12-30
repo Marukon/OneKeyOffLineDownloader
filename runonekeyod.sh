@@ -30,6 +30,7 @@ git clone https://github.com/MRAUStuty/OneKeyOffLineDownloader.git
 mkdir go
 mv /root/OneKeyOffLineDownloader/bin /root/go
 cd /root/go/bin
+chmod +x onekeyod
 nohup ./onekeyod >> /dev/null 2>&1 &
 echo "Done!"
 exit 0
