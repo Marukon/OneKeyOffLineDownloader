@@ -69,7 +69,7 @@ func main() {
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>离线下载</title>
+    <title>Github离线下载</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -83,11 +83,11 @@ func main() {
     <div class="am-container am-cf">
         <div class="am-g">
             <h1 class="am-topbar-brand">
-                <a href="#">离线下载</a>
+                <a href="#">Github中转下载</a>
             </h1>
             <!-- topbar-right -->
             <div class="am-topbar-right">
-                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm">基于golang的下载神器</button>
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm">Mr.Au一键安装版Golang下载器</button>
             </div>
         </div>
     </div>
@@ -97,10 +97,11 @@ func main() {
 <div class="am-container">
     <div class="am-g">
         <div class="am-u-md-10 am-u-sm-centered">
-            <legend>离线下载</legend>
+            <legend>欢迎使用</legend>
             <div class="am-form-group">
-                <p>欢迎使用！采用golang后台下载的方法实现简单的离线下载功能</p>
-                <p>文件永久保留，下载空间为512M，若空间不足，请手工删除，且用且珍惜！</p>
+                <p>本站基于来自Github的<a href="https://github.com/ilanyu/offLineDownloader" target="_blank">offLineDownloader</a>项目进行修改，基于GO语言实现简单的离线下载功能</p>
+				<p>由于中国大陆会对Github进行干扰，故建立这个中转下载站。</p>
+                <p>文件永久保留，下载空间有限，若空间不足，请手工删除，且用且珍惜！</p>
                 <div class="am-input-group">
 						<span class="am-input-group-label">
 							<i class="am-icon-cloud-download"></i>
@@ -127,22 +128,7 @@ func main() {
     </div>
     <hr>
 
-    <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="c7ef117e8fb5d1de76d99897dbbdad64" data-title="php离线下载" data-url="http://lyxz.gq/"></div>
-    <!-- 多说评论框 end -->
-    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-    <script type="text/javascript">
-        var duoshuoQuery = {short_name:"lyxzgq"};
-        (function() {
-            var ds = document.createElement('script');
-            ds.type = 'text/javascript';ds.async = true;
-            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-            ds.charset = 'UTF-8';
-            (document.getElementsByTagName('head')[0]
-            || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
-    </script>
-    <!-- 多说公共JS代码 end -->
+
 
 </div>
 <footer ata-am-widget="footer" class="am-footer am-footer-default" style="
@@ -154,13 +140,10 @@ func main() {
             color:#999;
         }
     </style>
-    <div class="am-footer-miscs">
-        <p>友情链接 &nbsp;<a href="http://www.lanyus.com/" rel="friend" target="_blank">无心问世</a></p> &nbsp;
-        <p><a href="https://github.com/ilanyu/offLineDownloader" target="_blank">关于</a></p>
-        <p class="am-article-meta">
-        </p><p><a href="#" target="_blank"><span class="am-icon-qq am-success" target="_blank"></span> 程序开发 无心问世</a></p>
+    <div class="am-footer-miscs">      
+        <p><a href="https://github.com/MRAUStuty/OneKeyOffLineDownloader" target="_blank">本项目源码</a></p>   
         <br>
-        <p>© 2016 无心问世. copyright</p>
+        <p>© 2019 Mr.Au Copyright</p>
     </div>
 </footer>
 
