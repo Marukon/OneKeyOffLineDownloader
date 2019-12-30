@@ -13,7 +13,7 @@
 ### 卸载安装版
 - wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/uninstall.sh && chmod +x uninstall.sh && bash uninstall.sh
 ## 使用
-访问ip:8081即可。如需直接访问请修改源码的端口为80后编译一次，或者用Nginx进行反代。
+- 访问ip:8081即可。如需直接访问请修改源码的端口为80后编译一次，或者用Nginx进行反代。
 ##路径相关
 - GO安装路径：/usr/local/go
 - 下载器安装路径：/root/go
