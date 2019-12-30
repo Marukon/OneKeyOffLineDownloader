@@ -7,11 +7,15 @@
 ## 直接运行
 - wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/runonekeyod.sh && chmod +x runonekeyod.sh && bash runonekeyod.sh
 ### 移除运行版
-- wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/removeonekeyod.sh && chmod +x removeonekeyod.sh && bash removeonekeyod.sh
+- 执行
+- kill -9 $(ps -ef | grep onekeyod | grep -v grep | awk '{print $2}')
+- rm -rf OneKeyOffLineDownloader go download
 ## 安装
 - wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/install.sh && chmod +x install.sh && bash install.sh
 ### 卸载安装版
-- wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/Uninstall.sh && chmod +x Uninstall.sh && bash Uninstall.sh
+- 执行
+- kill -9 $(ps -ef | grep onekeyod | grep -v grep | awk '{print $2}')
+- rm -rf OneKeyOffLineDownloader go go1.13.5.linux-amd64.tar.gz download /usr/local/go
 ## 使用
 - 访问ip:8081即可。如需直接访问请修改源码的端口为80后编译一次，或者用Nginx进行反代。
 ## 路径相关
