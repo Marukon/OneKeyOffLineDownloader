@@ -76,7 +76,7 @@ func main() {
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
     <meta name="msapplication-TileColor" content="#0e90d2">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/amazeui/2.7.2/css/amazeui.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/amazeui@2.7.2/dist/css/amazeui.min.css">
 </head>
 <body>
 <header class="am-topbar am-topbar-inverse">
