@@ -163,12 +163,12 @@ func main() {
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
 <script src="https://cdn.bootcss.com/rem/1.3.4/js/rem.min.js"></script>
 <script src="http://libs.baidu.com/respond.js/1.4.2/respond.min.js"></script>
-<script src="http://www.amazeui.org/amazeui/2.4.2/js/amazeui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/amazeui@2.4.2/js/amazeui.js"></script>
 <![endif]-->
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
-<script src="http://www.amazeui.org/amazeui/2.4.2/js/amazeui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@2.1.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/amazeui@2.4.2/js/amazeui.js"></script>
 <!--<![endif]-->
 <script>
     function writeDownList() {
