@@ -100,7 +100,6 @@ func main() {
             <legend>欢迎使用</legend>
             <div class="am-form-group">
                 <p>本站基于来自Github的<a href="https://github.com/ilanyu/offLineDownloader" target="_blank">offLineDownloader</a>项目进行修改，基于GO语言实现简单的离线下载功能</p>
-				<p>由于中国大陆会对Github进行干扰，故建立这个中转下载站。</p>
                 <p>文件永久保留，下载空间有限，若空间不足，请手工删除，且用且珍惜！</p>
                 <div class="am-input-group">
 						<span class="am-input-group-label">
