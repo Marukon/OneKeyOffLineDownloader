@@ -26,7 +26,7 @@ echo
 echo "Press any key to start...or Press Ctrl+C to cancel"
 char=`get_char`
 cd /root
-git clone https://github.com/MRAUStuty/OneKeyOffLineDownloader.git
+git clone https://github.com/Marukon/OneKeyOffLineDownloader.git
 mkdir go
 mv /root/OneKeyOffLineDownloader/bin /root/go
 chmod +x /root/go/bin/onekeyod
