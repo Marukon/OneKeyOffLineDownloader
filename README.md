@@ -21,7 +21,7 @@ Demo：https://chinanet.best/
 ```
 ## 安装
 ```shell
-wget -N --no-check-certificate https://raw.githubusercontent.com/MRAUStuty/OneKeyOffLineDownloader/master/install.sh && chmod +x install.sh && bash install.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/Marukon/OneKeyOffLineDownloader/master/install.sh && chmod +x install.sh && bash install.sh
 ```
 卸载安装版
 - 执行
