@@ -30,7 +30,7 @@ cd /root
 wget https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz
 tar -C /usr/local -xzf go1.13.5.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
-git clone https://github.com/MRAUStuty/OneKeyOffLineDownloader.git
+git clone https://github.com/Marukon/OneKeyOffLineDownloader.git
 mkdir go
 mv /root/OneKeyOffLineDownloader/src /root/go
 cd go
