@@ -160,9 +160,9 @@ func main() {
 
 <!--[if lt IE 9]>
 <script src="https://cdn.jsdelivr.net/npm/jquery@1.11.1/dist/jquery.min.js"></script>
-<script src="https://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-<script src="https://cdn.bootcss.com/rem/1.3.4/js/rem.min.js"></script>
-<script src="https://libs.baidu.com/respond.js/1.4.2/respond.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/modernizr@2.8.3/modernizr.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rem-unit-polyfill@1.3.4/js/rem.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/amazeui@2.4.2/js/amazeui.js"></script>
 <![endif]-->
 
