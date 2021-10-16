@@ -225,11 +225,11 @@ func main() {
 			file = strings.Replace(file, "/", "", -1)
 			os.Remove("./data/gitdownload/" + file)
 			ctx.WriteString("success")
-		case bytes.HasPrefix(ctx.Path(), []byte("/data/gitdownload/")):
-			fasthttp.FSHandler("./data/gitdownload", 1)(ctx)
+		case bytes.HasPrefix(ctx.Path(), []byte("/download/")):
+			fasthttp.FSHandler("./download", 1)(ctx)
 		case string(ctx.Path()) == "/downlist":
 			//生成文件列表
-			dirList, _ := ioutil.ReadDir("./data/gitdownload")
+			dirList, _ := ioutil.ReadDir("./download")
 			length := len(dirList)
 			ctx.WriteString("[")
 			for i := 0; i < length; i++ {
@@ -243,8 +243,8 @@ func main() {
 			ctx.Error("not found", fasthttp.StatusNotFound)
 		}
 	}
-	if fileInfo, err := os.Stat("./data/gitdownload"); err != nil || !fileInfo.IsDir() {
-		os.Mkdir("./data/gitdownload", 0755)
+	if fileInfo, err := os.Stat("./download"); err != nil || !fileInfo.IsDir() {
+		os.Mkdir("./download", 0755)
 		log.Println("mkDir dirctionary")
 	}
 	//bind := fmt.Sprintf("%s:%s", os.Getenv("OPENSHIFT_GO_IP"), os.Getenv("OPENSHIFT_GO_PORT"))
