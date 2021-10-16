@@ -176,7 +176,7 @@ func main() {
             var downlist = document.getElementById('downlist');
             downlist.innerHTML = '<tr><td>#</td><td>名称</td><td>修改时间</td><td>大小</td><td>操作</td></tr>';
             for (var i = 0 ; i < data.length ; i++) {
-                downlist.innerHTML = downlist.innerHTML + '<tr><td>' + i + '</td><td><a href="./download/' + data[i]['name'] + '">' + data[i]['name'] + '</a></td><td>' + data[i]['mtime'] + '</td><td>' + data[i]['size'] + '</td><td><button type="button" class="am-btn" onclick="del(\'' + data[i]['name'] + '\');">删除</button></td></tr>';
+                downlist.innerHTML = downlist.innerHTML + '<tr><td>' + i + '</td><td><a href="./data/gitdownload/' + data[i]['name'] + '">' + data[i]['name'] + '</a></td><td>' + data[i]['mtime'] + '</td><td>' + data[i]['size'] + '</td><td><button type="button" class="am-btn" onclick="del(\'' + data[i]['name'] + '\');">删除</button></td></tr>';
             }
         });
     }
@@ -223,13 +223,13 @@ func main() {
 			args := ctx.QueryArgs()
 			file := string(args.Peek("file"))
 			file = strings.Replace(file, "/", "", -1)
-			os.Remove("./download/" + file)
+			os.Remove("./data/gitdownload/" + file)
 			ctx.WriteString("success")
-		case bytes.HasPrefix(ctx.Path(), []byte("/download/")):
-			fasthttp.FSHandler("./download", 1)(ctx)
+		case bytes.HasPrefix(ctx.Path(), []byte("/data/gitdownload/")):
+			fasthttp.FSHandler("./data/gitdownload", 1)(ctx)
 		case string(ctx.Path()) == "/downlist":
 			//生成文件列表
-			dirList, _ := ioutil.ReadDir("./download")
+			dirList, _ := ioutil.ReadDir("./data/gitdownload")
 			length := len(dirList)
 			ctx.WriteString("[")
 			for i := 0; i < length; i++ {
@@ -243,8 +243,8 @@ func main() {
 			ctx.Error("not found", fasthttp.StatusNotFound)
 		}
 	}
-	if fileInfo, err := os.Stat("./download"); err != nil || !fileInfo.IsDir() {
-		os.Mkdir("./download", 0755)
+	if fileInfo, err := os.Stat("./data/gitdownload"); err != nil || !fileInfo.IsDir() {
+		os.Mkdir("./data/gitdownload", 0755)
 		log.Println("mkDir dirctionary")
 	}
 	//bind := fmt.Sprintf("%s:%s", os.Getenv("OPENSHIFT_GO_IP"), os.Getenv("OPENSHIFT_GO_PORT"))
