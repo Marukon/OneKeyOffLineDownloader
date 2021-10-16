@@ -31,7 +31,7 @@ func getFileName(url string) string {
 //使用fasthttp下载文件
 func download(url string) bool {
 	fileName := getFileName(url)
-	out, _ := os.Create("./download/" + fileName)
+	out, _ := os.Create("./data/gitdownload/" + fileName)
 	defer out.Close()
 	statusCode, body, err := fasthttp.Get(nil, url)
 	if statusCode == 200 && err == nil {
@@ -43,7 +43,7 @@ func download(url string) bool {
 //调用wget下载文件
 func downloadByWget(url string) bool {
 	fileName := getFileName(url)
-	cmd := exec.Command("wget", "-c", "-O", "./download/" + fileName, url)
+	cmd := exec.Command("wget", "-c", "-O", "./data/gitdownload/" + fileName, url)
 	err := cmd.Start()
 	if err != nil {
 		log.Fatal(err)
