@@ -34,7 +34,7 @@ rm -rf OneKeyOffLineDownloader go go1.13.5.linux-amd64.tar.gz download /usr/loca
 ## 路径相关
 - GO安装路径：/usr/local/go
 - 下载器安装路径：/root/go
-- 下载文件路径： /root/download
+- 下载文件路径： /data/gitdownload
 
 ## 感谢
 ilanyu:https://github.com/ilanyu/offLineDownloader
