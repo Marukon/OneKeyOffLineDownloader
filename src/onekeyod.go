@@ -176,7 +176,7 @@ func main() {
             var downlist = document.getElementById('downlist');
             downlist.innerHTML = '<tr><td>#</td><td>名称</td><td>修改时间</td><td>大小</td><td>操作</td></tr>';
             for (var i = 0 ; i < data.length ; i++) {
-                downlist.innerHTML = downlist.innerHTML + '<tr><td>' + i + '</td><td><a href="/data/gitdown/' + data[i]['name'] + '">' + data[i]['name'] + '</a></td><td>' + data[i]['mtime'] + '</td><td>' + data[i]['size'] + '</td><td><button type="button" class="am-btn" onclick="del(\'' + data[i]['name'] + '\');">删除</button></td></tr>';
+                downlist.innerHTML = downlist.innerHTML + '<tr><td>' + i + '</td><td><a href="./download/' + data[i]['name'] + '">' + data[i]['name'] + '</a></td><td>' + data[i]['mtime'] + '</td><td>' + data[i]['size'] + '</td><td><button type="button" class="am-btn" onclick="del(\'' + data[i]['name'] + '\');">删除</button></td></tr>';
             }
         });
     }
@@ -188,7 +188,7 @@ func main() {
             } else {
                 $('#downerror').modal();
             }
-        });
+        }); 
     }
     function del(file) {
         $.get('./delete',{'file':file},function (data) {
