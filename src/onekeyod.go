@@ -158,13 +158,6 @@ func main() {
 </div>
 
 
-<!--[if lt IE 9]>
-<script src="https://cdn.jsdelivr.net/npm/jquery@1.11.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/modernizr@2.8.3/modernizr.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/rem-unit-polyfill@1.3.4/js/rem.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/amazeui@2.4.2/js/amazeui.js"></script>
-<![endif]-->
 
 <!--[if (gte IE 9)|!(IE)]><!-->
 <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/2.1.1/jquery.min.js"></script>
