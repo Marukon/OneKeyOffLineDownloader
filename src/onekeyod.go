@@ -168,7 +168,7 @@ func main() {
 
 <!--[if (gte IE 9)|!(IE)]><!-->
 <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/amazeui/2.4.2/js/amazeui.min.js"></script>
+<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/amazeui/2.4.2/js/amazeui.min.js"></script>
 <!--<![endif]-->
 <script>
     function writeDownList() {
