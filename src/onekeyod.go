@@ -76,7 +76,7 @@ func main() {
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
     <meta name="msapplication-TileColor" content="#0e90d2">
-    <link rel="stylesheet" href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/amazeui/2.7.2/css/amazeui.min.css">
+    <link rel="stylesheet" href="https://s2.pstatp.com/cdn/expire-1-M/amazeui/2.7.2/css/amazeui.min.css">
 </head>
 <body>
 <header class="am-topbar am-topbar-inverse">
@@ -160,8 +160,8 @@ func main() {
 
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/amazeui/2.4.2/js/amazeui.min.js"></script>
+<script src="https://s2.pstatp.com/cdn/expire-1-M/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://s2.pstatp.com/cdn/expire-1-M/amazeui/2.4.2/js/amazeui.min.js"></script>
 <!--<![endif]-->
 <script>
     function writeDownList() {
