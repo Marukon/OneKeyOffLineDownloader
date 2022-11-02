@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/valyala/fasthttp"
+	"fasthttp"
 	"log"
 	"os"
 	"strings"
